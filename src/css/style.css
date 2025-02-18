@@ -13,7 +13,7 @@ header{
     /* background-color: red; */
     margin-left: 19px;
     margin-right: 19px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 header h1{
     /* background-color: violet; */
@@ -88,4 +88,19 @@ main{
 }
 .section__form p a{
     color: var(--color-3);
+}
+/***********************************/
+/************* Footer **************/
+footer{
+    /* background: red; */
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+footer img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+    /* background: blue; */
 }
