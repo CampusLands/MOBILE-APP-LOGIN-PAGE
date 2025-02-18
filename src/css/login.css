@@ -4,5 +4,42 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter_18pt-Regular";
+}
+
+body{
     background-color: var(--color-5);
+}
+
+header{
+    margin-top: 60px;
+}
+
+header h1{
+    /* background-color: violet; */
+    width: 264px;
+    font-family: "Inter_28pt-Bold.ttf";
+    font-size: 30px;
+    color:var(--color-1);
+    margin-left: 97px;
+    margin-bottom: 17px;
+    height: 50px;
+}
+
+header a{
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    font-family: "Inter_18pt-Bold.ttf";
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--color-1);
+    background-color: var(--color-3);
+    width: 306px;
+    height: 56px;
+    border-radius: 50px;
+    padding:12px;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
 }
